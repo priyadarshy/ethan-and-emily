@@ -2,33 +2,41 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
+const headerLinks = [
+  {
+    location: "/travel/",
+    title: "Hotels and Accommodations",
+  },
+  {
+    location: "/attractions/",
+    title: "Recommendations",
+  },
+  {
+    location: "/photos/",
+    title: "About Us",
+  },
+  {
+    location: "/faq/",
+    title: "FAQ",
+  },
+]
+
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <div className="flex justify-between bg-orange-200 min-h-16 py-4 pl-8 mb-12">
+    <div className="flex">
+      <Link to="/">{siteTitle}</Link>
     </div>
-  </header>
+    <div className="">
+      {headerLinks.map(headerLink => (
+        <Link
+          className="mr-6 cursor-pointer hover:underline"
+          to={headerLink.location}
+        >
+          {headerLink.title}
+        </Link>
+      ))}
+    </div>
+  </div>
 )
 
 Header.propTypes = {

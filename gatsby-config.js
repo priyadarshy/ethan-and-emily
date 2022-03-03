@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Ethan and Emily`,
+    title: `Emily 💖 Ethan`,
     description: `All the details you need for our wedding`,
-    author: `@gatsbyjs`,
+    author: `@priyadarshy`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
