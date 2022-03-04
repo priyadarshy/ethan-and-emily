@@ -7,14 +7,17 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Ethan and Emily" />
-    <h1>Ethan and Emily</h1>
+    <Seo title="Emily and Ethan" />
+    <h1>Emily and Ethan</h1>
     <p>Get excited for our wedding.</p>
-    <StaticImage
-      src="../images/ethan_and_emily_splash.png"
-      alt="The beautiful couple"
-      style={{ marginBottom: `1.45rem` }}
-    />
+    <iframe
+      class="airtable-embed"
+      src="https://airtable.com/embed/shrf731SgfqBR8kNv?backgroundColor=cyan"
+      frameborder="0"
+      onmousewheel=""
+      width="100%"
+      height="733"
+    ></iframe>
   </Layout>
 )
 

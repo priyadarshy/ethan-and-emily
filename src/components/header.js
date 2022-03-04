@@ -5,7 +5,11 @@ import { Link } from "gatsby"
 const headerLinks = [
   {
     location: "/travel/",
-    title: "Hotels and Accommodations",
+    title: "Travel and Accommodations",
+  },
+  {
+    location: "/registry/",
+    title: "Registry",
   },
   {
     location: "/attractions/",
@@ -13,7 +17,7 @@ const headerLinks = [
   },
   {
     location: "/photos/",
-    title: "About Us",
+    title: "Photos",
   },
   {
     location: "/faq/",
@@ -22,14 +26,14 @@ const headerLinks = [
 ]
 
 const Header = ({ siteTitle }) => (
-  <div className="flex justify-between bg-orange-200 min-h-16 py-4 pl-8 mb-12">
-    <div className="flex">
+  <div className="flex sm:flex-row justify-between bg-orange-200 min-h-16 py-4 pl-8 mb-12">
+    <div className="grow">
       <Link to="/">{siteTitle}</Link>
     </div>
-    <div className="">
+    <div className="flex sm:flex-row">
       {headerLinks.map(headerLink => (
         <Link
-          className="mr-6 cursor-pointer hover:underline"
+          className="mr-6 cursor-pointer hover:underline min-w-max"
           to={headerLink.location}
         >
           {headerLink.title}
