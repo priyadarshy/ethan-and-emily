@@ -46,6 +46,9 @@ const IndexPage = () => (
       There is a massive parking garage called Colonial Parking just across the
       street from the venue at 102 N Union Street, Alexandria, VA 22314. You can
       park there for the duration of the wedding for under $15.
+      <br></br>
+      <br></br>
+      More parking information is available <a target="_blank" className="underline" href="https://github.com/priyadarshy/ethan-and-emily/raw/master/src/images/parking.pdf">here</a>
     </div>
     <div className="text-lg underline my-6">Lodging</div>
     <div>
@@ -62,6 +65,7 @@ const IndexPage = () => (
       walk).
       <br></br>
       <br></br>
+      A longer list of hotels is available <a target="_blank" className="underline" href="https://github.com/priyadarshy/ethan-and-emily/raw/master/src/images/hotels.pdf">here</a>
     </div>
   </Layout>
 )

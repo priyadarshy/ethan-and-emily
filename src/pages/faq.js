@@ -15,6 +15,9 @@ const Questions = () => (
       just across the street from the venue at 102 N Union Street, Alexandria,
       VA 22314. You can park there for the duration of the wedding for under
       $15.
+      <br></br>
+      <br></br>
+      More parking information is available <a target="_blank" className="underline" href="https://github.com/priyadarshy/ethan-and-emily/raw/master/src/images/parking.pdf">here</a>
     </div>
     <div className="text-lg underline my-6">
       Do you have any hotel recommendations?
@@ -41,6 +44,7 @@ const Questions = () => (
       VA 22314
       <br></br>
       <br></br>
+      A longer list of hotels is available <a target="_blank" className="underline" href="https://github.com/priyadarshy/ethan-and-emily/raw/master/src/images/hotels.pdf">here</a>
     </div>
     <div className="text-lg underline my-6">
       Is there transportation to and from the hotels to the ceremony?
@@ -63,7 +67,7 @@ const Questions = () => (
       We will follow federal, state, and local venue guidance on COVID-19
       prevention protocols.{" "}
       <b>
-        >We ask that all guests be vaccinated. We ask that all guests get tested
+        We ask that all guests be vaccinated. We ask that all guests get tested
         within 48 hours of the event.
       </b>{" "}
       For now, we will not be asking guests to wear masks, but you are more than
