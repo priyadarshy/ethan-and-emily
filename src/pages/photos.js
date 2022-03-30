@@ -10,7 +10,6 @@ const imageClass = "my-10"
 const IndexPage = () => (
   <Layout>
     <Seo title="Our Story" />
-    <h1>Our Story</h1>
     <div className="flex-row">
       <StaticImage className={imageClass} src="../images/1-min.jpg" />
       <StaticImage className={imageClass} src="../images/2-min.jpg" />
