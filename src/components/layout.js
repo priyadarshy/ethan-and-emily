@@ -19,7 +19,9 @@ const Layout = ({ children }) => {
   const updatePassword = value => {
       setPassword(value);
       if (value === 'steinbach'){
-          window.passwordSet = true; 
+          if (window){
+              window.passwordSet = true; 
+          }
       }
   }
 
@@ -44,7 +46,7 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        { password === 'steinbach' || window.passwordSet ? <main>{children}</main> : 
+        { password === 'steinbach' || (window && window.passwordSet) ? <main>{children}</main> : 
         <label class="block">
             <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
             Password
