@@ -13,15 +13,15 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
+let globalPasswordSet; 
+
 const Layout = ({ children }) => {
   const [password, setPassword] = useState('');
 
   const updatePassword = value => {
       setPassword(value);
       if (value === 'steinbach'){
-          if (window){
-              window.passwordSet = true; 
-          }
+        globalPasswordSet = true; 
       }
   }
 
@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        { password === 'steinbach' || (window && window.passwordSet) ? <main>{children}</main> : 
+        { password === 'steinbach' || (globalPasswordSet) ? <main>{children}</main> : 
         <label class="block">
             <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
             Password
