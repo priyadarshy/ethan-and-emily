@@ -28,17 +28,19 @@ const headerLinks = [
 const Header = ({ siteTitle }) => (
   <div className="flex flex-col lg:flex-row justify-between bg-[#afeaaf] min-h-16 py-4 pl-8 mb-12">
     <div className="grow">
-      <Link to="/" className="font-bold">{siteTitle}</Link>
+      <Link to="/" className="font-bold">
+        {siteTitle}
+      </Link>
     </div>
     <div className="flex flex-col lg:flex-row ">
       {headerLinks.map(headerLink => (
-          <div>
-        <Link
-          className="mr-6 cursor-pointer hover:underline min-w-max"
-          to={headerLink.location}
-        >
-          {headerLink.title}
-        </Link>
+        <div>
+          <Link
+            className="mr-6 cursor-pointer hover:underline min-w-max"
+            to={headerLink.location}
+          >
+            {headerLink.title}
+          </Link>
         </div>
       ))}
     </div>

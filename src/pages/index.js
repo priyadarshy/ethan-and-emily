@@ -23,7 +23,7 @@ const IndexPage = () => (
       frameborder="0"
       onmousewheel=""
       width="100%"
-      height="733"
+      height="533"
     ></iframe>
   </Layout>
 )

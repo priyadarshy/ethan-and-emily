@@ -48,7 +48,14 @@ const IndexPage = () => (
       park there for the duration of the wedding for under $15.
       <br></br>
       <br></br>
-      More parking information is available <a target="_blank" className="underline" href="https://github.com/priyadarshy/ethan-and-emily/raw/master/src/images/parking.pdf">here</a>
+      More parking information is available{" "}
+      <a
+        target="_blank"
+        className="underline"
+        href="https://github.com/priyadarshy/ethan-and-emily/raw/master/src/images/parking.pdf"
+      >
+        here
+      </a>
     </div>
     <div className="text-lg underline my-6">Lodging</div>
     <div>
@@ -64,8 +71,14 @@ const IndexPage = () => (
       Alexandria Old Town on 1620 Prince St, Alexandria, VA 22314 (22-minute
       walk).
       <br></br>
-      <br></br>
-      A longer list of hotels is available <a target="_blank" className="underline" href="https://github.com/priyadarshy/ethan-and-emily/raw/master/src/images/hotels.pdf">here</a>
+      <br></br>A longer list of hotels is available{" "}
+      <a
+        target="_blank"
+        className="underline"
+        href="https://github.com/priyadarshy/ethan-and-emily/raw/master/src/images/hotels.pdf"
+      >
+        here
+      </a>
     </div>
   </Layout>
 )

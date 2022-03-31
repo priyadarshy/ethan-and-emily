@@ -29,12 +29,29 @@ const IndexPage = () => (
       Send your decisions to Stone.Ethan@protonmail.com
       <br></br>
       <br></br>
-      You can ship the items to: <b>7202 Rebecca Drive, Alexandria, VA, 22307</b>. We
-      will also have a gift table at the entrance to the venue on the big day.
+      You can ship the items to:{" "}
+      <b>7202 Rebecca Drive, Alexandria, VA, 22307</b>. We will also have a gift
+      table at the entrance to the venue on the big day.
       <br></br>
       <br></br>
       For Honeymoon donations, you can mail a check to the 7202 Rebecca Drive
-      address or Venmo <a target="_blank" className="underline" href="https://account.venmo.com/u/Emily-Kuhbach">@Emily-Kuhbach</a> or <a target="_blank" className="underline" href="https://account.venmo.com/u/Ethan-Stone">@Ethan-Stone</a> directly.
+      address or Venmo{" "}
+      <a
+        target="_blank"
+        className="underline"
+        href="https://account.venmo.com/u/Emily-Kuhbach"
+      >
+        @Emily-Kuhbach
+      </a>{" "}
+      or{" "}
+      <a
+        target="_blank"
+        className="underline"
+        href="https://account.venmo.com/u/Ethan-Stone"
+      >
+        @Ethan-Stone
+      </a>{" "}
+      directly.
       <br></br>
       <br></br>
       Feel free to text us if you have questions. Please also feel free not to
