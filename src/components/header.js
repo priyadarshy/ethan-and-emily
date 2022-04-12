@@ -12,6 +12,10 @@ const headerLinks = [
     title: "🎁 Registry",
   },
   {
+    location: "/schedule/",
+    title: "📆 Schedule",
+  },
+  {
     location: "/attractions/",
     title: "📍 Recommendations",
   },
