@@ -10,7 +10,7 @@ const Attractions = () => (
     <h1>Recommendations</h1>
     <iframe
       className="airtable-embed mt-10"
-      src="https://airtable.com/embed/shrPSLh1z0HDPcL35?backgroundColor=cyan&viewControls=on"
+      src="https://airtable.com/embed/shrPWZbEaL472luva?backgroundColor=cyan&viewControls=on"
       frameborder="0"
       onmousewheel=""
       width="100%"

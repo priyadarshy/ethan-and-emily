@@ -13,7 +13,7 @@ const headerLinks = [
   },
   {
     location: "/schedule/",
-    title: "📆 Schedule",
+    title: "🗓 Schedule",
   },
   {
     location: "/attractions/",
