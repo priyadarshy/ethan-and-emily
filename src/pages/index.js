@@ -1,6 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -11,6 +9,7 @@ const IndexPage = () => (
     <h1>Emily Kuhbach and Ethan Stone</h1>
     <h3>June 11, 2022</h3>
     <h3>Alexandria, Virginia</h3>
+    <h3>Dress Code is Cocktail Attire</h3>
 
     <p>
       Welcome to our wedding website! Browse around for more detail about the
